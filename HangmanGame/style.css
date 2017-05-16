@@ -1,0 +1,73 @@
+h1{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color:#E77471;
+	margin-bottom: 75px;
+}
+
+.dotted{
+  border-style: dotted;
+  margin:10px;
+  float:left;
+  height: 350px;
+  text-align: center;
+  width: 300px;
+  
+}
+
+.dotted2{
+  border-style: dotted;
+  margin:10px;	
+  float:left;
+  height: 350px;
+  width: 300px;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    background-color:  #E3E4FA;
+
+}
+body {
+    font-family: sans-serif;
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-bottom: 600px;
+}
+
+/* Keep it simple - improvement would be to not display characters */
+ .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+
+}
+.current-word {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.correct {
+    background-color: green;
+    transition: all 1s ease;
+}
+.error {
+    color: red;
+    opacity: 1;
+}
+.warning {
+    color: orange;
+    opacity: 1;
+}
+.win {
+    color: green;
+    opacity: 1;
+}
